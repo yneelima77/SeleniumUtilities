@@ -24,7 +24,7 @@ public class BrokenLinks {
 
 	@BeforeMethod
 	public void openPage() {
-		driver = Basedriver.BaseWebDriver();
+		driver = BaseClass.BaseWebDriver();
 	}
 	
 	@Test
